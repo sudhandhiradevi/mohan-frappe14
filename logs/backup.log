@@ -1,0 +1,12 @@
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f72b2ebd0781a5f4 -p********** _f72b2ebd0781a5f4 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcodeerp13-14.com/private/backups/20221126_120004-dcodeerp13-14_com-database.sql.gz
+
+Backup Summary for dcodeerp13-14.com at 2022-11-26 12:00:12.224945
+Config  : ./dcodeerp13-14.com/private/backups/20221126_120004-dcodeerp13-14_com-site_config_backup.json 158.0B
+Database: ./dcodeerp13-14.com/private/backups/20221126_120004-dcodeerp13-14_com-database.sql.gz         1.8MiB
+Backup for Site dcodeerp13-14.com has been successfully completed
+self=$$;  ( mysqldump --single-transaction --quick --lock-tables=false -u _f72b2ebd0781a5f4 -p********** _f72b2ebd0781a5f4 -h 127.0.0.1 -P 3306   || kill $self )  | /usr/bin/gzip >> ./dcodeerp13-14.com/private/backups/20221128_120022-dcodeerp13-14_com-database.sql.gz
+
+Backup Summary for dcodeerp13-14.com at 2022-11-28 12:00:33.374507
+Config  : ./dcodeerp13-14.com/private/backups/20221128_120022-dcodeerp13-14_com-site_config_backup.json 158.0B
+Database: ./dcodeerp13-14.com/private/backups/20221128_120022-dcodeerp13-14_com-database.sql.gz         1.8MiB
+Backup for Site dcodeerp13-14.com has been successfully completed

@@ -1,0 +1,20 @@
+{
+ "background_workers": 1,
+ "file_watcher_port": 6792,
+ "frappe_user": "eorchids",
+ "gunicorn_workers": 9,
+ "live_reload": true,
+ "maintenance_mode": 1,
+ "pause_scheduler": 1,
+ "rebase_on_pull": false,
+ "redis_cache": "redis://localhost:13005",
+ "redis_queue": "redis://localhost:11005",
+ "redis_socketio": "redis://localhost:12005",
+ "restart_supervisor_on_update": false,
+ "restart_systemd_on_update": false,
+ "serve_default_site": true,
+ "shallow_clone": true,
+ "socketio_port": 9005,
+ "use_redis_auth": false,
+ "webserver_port": 8005
+}

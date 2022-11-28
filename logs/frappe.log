@@ -1,0 +1,191 @@
+2022-11-28 10:05:39,135 ERROR frappe New Exception collected with id: 2022-11-28 10:05:38.922287-127.0.0.1-993
+Site: dcodeerp13-14.com
+Form Dict: {}
+2022-11-28 10:05:39,149 ERROR frappe New Exception collected with id: 2022-11-28 10:05:38.925980-127.0.0.1-fce
+Site: dcodeerp13-14.com
+Form Dict: {}
+2022-11-28 10:05:39,150 ERROR frappe New Exception collected with id: 2022-11-28 10:05:38.938510-127.0.0.1-005
+Site: dcodeerp13-14.com
+Form Dict: {'fields': '["*"]', 'limit': '20', 'order_by': 'creation desc', 'doctype': 'Notification Log'}
+2022-11-28 12:25:09,473 ERROR frappe New Exception collected with id: 2022-11-28 12:25:09.453268-127.0.0.1-63e
+Site: dcodeerp13-14.com
+Form Dict: {'app_path': 'customize-form'}
+2022-11-28 12:25:21,695 ERROR frappe New Exception collected with id: 2022-11-28 12:25:21.682238-127.0.0.1-d37
+Site: dcodeerp13-14.com
+Form Dict: {}
+2022-11-28 12:26:46,915 ERROR frappe New Exception collected with id: 2022-11-28 12:26:46.818675-127.0.0.1-cd8
+Site: dcodeerp13-14.com
+Form Dict: {}
+2022-11-28 12:26:47,374 ERROR frappe New Exception collected with id: 2022-11-28 12:26:47.372294-127.0.0.1-78a
+Site: dcodeerp13-14.com
+Form Dict: {}
+2022-11-28 12:26:47,423 ERROR frappe New Exception collected with id: 2022-11-28 12:26:47.421367-127.0.0.1-46d
+Site: dcodeerp13-14.com
+Form Dict: {}
+2022-11-28 12:26:47,590 ERROR frappe New Exception collected with id: 2022-11-28 12:26:47.589065-127.0.0.1-8d9
+Site: dcodeerp13-14.com
+Form Dict: {}
+2022-11-28 12:26:49,605 ERROR frappe New Exception collected with id: 2022-11-28 12:26:49.603905-127.0.0.1-a4e
+Site: dcodeerp13-14.com
+Form Dict: {}
+2022-11-28 12:26:49,959 ERROR frappe New Exception collected with id: 2022-11-28 12:26:49.958019-127.0.0.1-7d3
+Site: dcodeerp13-14.com
+Form Dict: {}
+2022-11-28 12:26:49,997 ERROR frappe New Exception collected with id: 2022-11-28 12:26:49.995610-127.0.0.1-395
+Site: dcodeerp13-14.com
+Form Dict: {}
+2022-11-28 12:26:50,126 ERROR frappe New Exception collected with id: 2022-11-28 12:26:50.124168-127.0.0.1-64e
+Site: dcodeerp13-14.com
+Form Dict: {}
+2022-11-28 14:31:10,938 ERROR frappe Could not take error snapshot: characters_written
+Site: dcodeerp13-14.com
+Form Dict: {'doctype': 'Employee', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+Traceback (most recent call last):
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/handler.py", line 45, in handle
+    data = execute_cmd(cmd)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/handler.py", line 83, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/__init__.py", line 1587, in call
+    return fn(*args, **newargs)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/load.py", line 72, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/load.py", line 83, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 43, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 54, in __init__
+    self.load_assets()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 64, in load_assets
+    self.add_code()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 119, in add_code
+    self.add_html_templates(path)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 132, in add_html_templates
+    for fname in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/eorchids/frappe-bench13/apps/hrms/hrms/hr/doctype/employee'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/utils/error.py", line 47, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/utils/error.py", line 140, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2022-11-28 14:31:58,328 ERROR frappe Could not take error snapshot: characters_written
+Site: dcodeerp13-14.com
+Form Dict: {'doctype': 'Employee', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+Traceback (most recent call last):
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/handler.py", line 45, in handle
+    data = execute_cmd(cmd)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/handler.py", line 83, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/__init__.py", line 1587, in call
+    return fn(*args, **newargs)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/load.py", line 72, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/load.py", line 83, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 43, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 54, in __init__
+    self.load_assets()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 64, in load_assets
+    self.add_code()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 119, in add_code
+    self.add_html_templates(path)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 132, in add_html_templates
+    for fname in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/eorchids/frappe-bench13/apps/hrms/hrms/hr/doctype/employee'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/utils/error.py", line 47, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/utils/error.py", line 140, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2022-11-28 14:32:30,708 ERROR frappe Could not take error snapshot: characters_written
+Site: dcodeerp13-14.com
+Form Dict: {'doctype': 'Employee', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+Traceback (most recent call last):
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/handler.py", line 45, in handle
+    data = execute_cmd(cmd)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/handler.py", line 83, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/__init__.py", line 1587, in call
+    return fn(*args, **newargs)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/load.py", line 72, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/load.py", line 83, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 43, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 54, in __init__
+    self.load_assets()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 64, in load_assets
+    self.add_code()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 119, in add_code
+    self.add_html_templates(path)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 132, in add_html_templates
+    for fname in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/eorchids/frappe-bench13/apps/hrms/hrms/hr/doctype/employee'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/utils/error.py", line 47, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/utils/error.py", line 140, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
+2022-11-28 14:35:48,914 ERROR frappe Could not take error snapshot: characters_written
+Site: dcodeerp13-14.com
+Form Dict: {'doctype': 'Employee', 'with_parent': '1', 'cached_timestamp': '', 'cmd': 'frappe.desk.form.load.getdoctype'}
+Traceback (most recent call last):
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/app.py", line 69, in application
+    response = frappe.api.handle()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/api.py", line 54, in handle
+    return frappe.handler.handle()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/handler.py", line 45, in handle
+    data = execute_cmd(cmd)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/handler.py", line 83, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/__init__.py", line 1587, in call
+    return fn(*args, **newargs)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/load.py", line 72, in getdoctype
+    docs = get_meta_bundle(doctype)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/load.py", line 83, in get_meta_bundle
+    bundle = [frappe.desk.form.meta.get_meta(doctype)]
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 43, in get_meta
+    meta = FormMeta(doctype)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 54, in __init__
+    self.load_assets()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 64, in load_assets
+    self.add_code()
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 119, in add_code
+    self.add_html_templates(path)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/desk/form/meta.py", line 132, in add_html_templates
+    for fname in os.listdir(path):
+FileNotFoundError: [Errno 2] No such file or directory: '/home/eorchids/frappe-bench13/apps/hrms/hrms/hr/doctype/employee'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/utils/error.py", line 47, in make_error_snapshot
+    snapshot = get_snapshot(exception)
+  File "/home/eorchids/frappe-bench13/apps/frappe/frappe/utils/error.py", line 140, in get_snapshot
+    value = pydoc.text.repr(getattr(evalue, name))
+AttributeError: characters_written
