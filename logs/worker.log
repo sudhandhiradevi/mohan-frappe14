@@ -3673,3 +3673,21 @@ pymysql.err.OperationalError: (1054, "Unknown column 'document_type' in 'field l
 16:21:41 Subscribing to channel rq:pubsub:d94789068dd04e429b5ba0a9adb9765a.eorchids-HP-Laptop-15-bs1xx.25098.home-eorchids-frappe-bench13:long
 16:21:41 *** Listening on home-eorchids-frappe-bench13:long...
 16:21:41 Cleaning registries for queue: home-eorchids-frappe-bench13:long
+16:30:36 Warm shut down requested
+16:30:36 Warm shut down requested
+16:30:36 Warm shut down requested
+16:30:36 Unsubscribing from channel rq:pubsub:5f9333c48faa4708968113a39a5ecd70.eorchids-HP-Laptop-15-bs1xx.25094.home-eorchids-frappe-bench13:short
+16:30:36 Unsubscribing from channel rq:pubsub:9663f323dd57402f839d7a97e75570ba.eorchids-HP-Laptop-15-bs1xx.25097.home-eorchids-frappe-bench13:default
+16:30:36 Unsubscribing from channel rq:pubsub:d94789068dd04e429b5ba0a9adb9765a.eorchids-HP-Laptop-15-bs1xx.25098.home-eorchids-frappe-bench13:long
+16:30:53 Worker rq:worker:b8f172ce7692417bb5b05bcdaf8b7b91.eorchids-HP-Laptop-15-bs1xx.25860.home-eorchids-frappe-bench13:long: started, version 1.11.1
+16:30:53 Subscribing to channel rq:pubsub:b8f172ce7692417bb5b05bcdaf8b7b91.eorchids-HP-Laptop-15-bs1xx.25860.home-eorchids-frappe-bench13:long
+16:30:53 *** Listening on home-eorchids-frappe-bench13:long...
+16:30:53 Cleaning registries for queue: home-eorchids-frappe-bench13:long
+16:30:53 Worker rq:worker:efe2e50c8ee8417dbe2d660f17a9101e.eorchids-HP-Laptop-15-bs1xx.25858.home-eorchids-frappe-bench13:short: started, version 1.11.1
+16:30:53 Subscribing to channel rq:pubsub:efe2e50c8ee8417dbe2d660f17a9101e.eorchids-HP-Laptop-15-bs1xx.25858.home-eorchids-frappe-bench13:short
+16:30:53 *** Listening on home-eorchids-frappe-bench13:short...
+16:30:53 Cleaning registries for queue: home-eorchids-frappe-bench13:short
+16:30:53 Worker rq:worker:51c27b96be10430bbd74ecd8e23dacff.eorchids-HP-Laptop-15-bs1xx.25863.home-eorchids-frappe-bench13:default: started, version 1.11.1
+16:30:53 Subscribing to channel rq:pubsub:51c27b96be10430bbd74ecd8e23dacff.eorchids-HP-Laptop-15-bs1xx.25863.home-eorchids-frappe-bench13:default
+16:30:53 *** Listening on home-eorchids-frappe-bench13:default...
+16:30:53 Cleaning registries for queue: home-eorchids-frappe-bench13:default

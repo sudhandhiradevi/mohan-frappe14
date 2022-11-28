@@ -335,3 +335,10 @@ To avoid seeing this warning, set shallow_clone to false in your common_site_con
 2022-11-28 16:21:40,778 INFO /usr/local/bin/bench worker --queue default
 2022-11-28 16:21:40,783 INFO /usr/local/bin/bench schedule
 2022-11-28 16:21:40,905 INFO /usr/local/bin/bench serve --port 8005
+2022-11-28 16:30:49,985 INFO /usr/local/bin/bench start
+2022-11-28 16:30:52,671 INFO /usr/local/bin/bench worker --queue long
+2022-11-28 16:30:52,680 INFO /usr/local/bin/bench worker --queue short
+2022-11-28 16:30:52,721 INFO /usr/local/bin/bench watch
+2022-11-28 16:30:52,757 INFO /usr/local/bin/bench schedule
+2022-11-28 16:30:52,770 INFO /usr/local/bin/bench serve --port 8005
+2022-11-28 16:30:52,772 INFO /usr/local/bin/bench worker --queue default
